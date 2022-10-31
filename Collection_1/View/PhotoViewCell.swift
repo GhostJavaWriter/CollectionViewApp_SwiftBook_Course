@@ -22,8 +22,4 @@ class PhotoViewCell: UICollectionViewCell {
         imageView.image = image
         
     }
-    
-    func someFuncFromMainBranch() {
-        print("I'm from Main branch")
-    }
 }

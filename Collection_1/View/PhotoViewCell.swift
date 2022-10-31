@@ -22,4 +22,8 @@ class PhotoViewCell: UICollectionViewCell {
         imageView.image = image
         
     }
+    
+    func bugFix() {
+        print("i'm bug fixer")
+    }
 }

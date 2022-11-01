@@ -20,10 +20,5 @@ class PhotoViewCell: UICollectionViewCell {
     func configureCell(with model: PetsModel) {
         let image = UIImage(named: model.photo)
         imageView.image = image
-        
-    }
-    
-    func bugFix() {
-        print("i'm bug fixer")
     }
 }
